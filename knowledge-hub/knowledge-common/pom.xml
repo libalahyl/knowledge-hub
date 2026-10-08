@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.knowledgehub</groupId>
+        <artifactId>knowledge-hub</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>knowledge-common</artifactId>
+    <name>knowledge-common</name>
+    <description>公共模块：Result、异常、常量、工具类</description>
+
+    <!-- 纯 Java，无第三方依赖，供所有模块引用 -->
+</project>

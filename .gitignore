@@ -1,0 +1,33 @@
+# ===== 依赖 =====
+node_modules/
+dist/
+
+# ===== Java 构建产物 =====
+target/
+out/
+*.class
+*.jar
+*.war
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# ===== 日志 =====
+*.log
+logs/
+nohup.out
+
+# ===== 系统/临时 =====
+.DS_Store
+Thumbs.db
+*.tmp
+
+# ===== 本地敏感配置 =====
+.env
+*.local
+application-local.yml

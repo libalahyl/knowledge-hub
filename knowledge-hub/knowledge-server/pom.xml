@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.knowledgehub</groupId>
+        <artifactId>knowledge-hub</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>knowledge-server</artifactId>
+    <name>knowledge-server</name>
+    <description>启动入口 + 配置文件</description>
+
+    <dependencies>
+        <!-- 聚合所有业务模块 -->
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-account</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-doc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-ai</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-search</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

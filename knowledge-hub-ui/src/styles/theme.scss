@@ -1,0 +1,22 @@
+:root {
+  --el-color-primary: #10b981;
+  --el-color-primary-light-3: #34d399;
+  --el-color-primary-light-5: #6ee7b7;
+  --el-color-primary-light-7: #a7f3d0;
+  --el-color-primary-light-8: #d1fae5;
+  --el-color-primary-light-9: #ecfdf5;
+  --el-color-primary-dark-2: #059669;
+}
+
+/* 全局滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}

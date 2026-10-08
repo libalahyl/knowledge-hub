@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.knowledgehub</groupId>
+        <artifactId>knowledge-hub</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>knowledge-doc</artifactId>
+    <name>knowledge-doc</name>
+    <description>文档模块：文档、分类、标签、注释、收藏、举报、文件存储</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-framework</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.knowledgehub</groupId>
+            <artifactId>knowledge-account</artifactId>
+        </dependency>
+    </dependencies>
+</project>
